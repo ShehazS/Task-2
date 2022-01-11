@@ -1,0 +1,41 @@
+Scanner UI = new Scanner(System.in)
+Int I=0;
+1.	Int TP = UI.nextInt;                                  //total number of products
+String DMD[TP];
+2.	Int RTP = UI.nextInt;                               //total number of required products
+Date ED[TP];                                             // Expiration date of products
+3.	Date PD = UI.next();                           // Present date inputted by user
+
+4.	For(i=1;i<=TP;i++)
+{
+5.	If(ED[i]<PD)
+Print(“Remove Products ASAP)
+6.	Else if(“ED[i]=PD”)
+Print(“Remove Products from shelves End of day”)
+7.	Else if(“ED[i]>PD”)
+{
+8.	If(TP[i]<RTP)
+Print(“request for more products”)
+9.	Else
+Print(“continue selling”)
+10.	End if
+}
+11.	End if
+}
+
+12.	End for
+
+13.	For(i=1;1<=TP;i++)
+{
+14.	DMD[i] = UI.next();
+15.	If(DMD[i] == high);
+Print(“Request more products”)
+16.	Else If(DMD[i] == medium);
+Print(“marketing research suggested”)
+17.	Else If(DMD[i] == low);
+Print(“discount suggested”)
+
+}
+18.	End if
+19.	End for
+20.	Print (“Report generated”)
