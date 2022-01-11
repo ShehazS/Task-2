@@ -33,7 +33,7 @@ Print(“Request more products”)
 16.	Else If(DMD[i] == medium);
 Print(“marketing research suggested”)
 17.	Else If(DMD[i] == low);
-Print(“discount suggested”)
+Print(“Discontinue Product”)
 
 }
 18.	End if
